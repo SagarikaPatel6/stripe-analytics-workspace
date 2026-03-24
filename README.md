@@ -249,9 +249,8 @@ For Stripe's Data Analyst role, this project showcases:
 ## 📞 Contact
 
 **Sagarika Patel**
-- 📧 Email: [Your Email]
-- 💼 LinkedIn: [Your LinkedIn]
-- 🐙 GitHub: [@SagarikaPatel6](https://github.com/SagarikaPatel6)
+- 📧 Email: patelsagarika06@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/sagarikapatel6/
 
 ---
 
