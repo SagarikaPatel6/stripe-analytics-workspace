@@ -34,5 +34,52 @@ This workspace includes four core analytics domains:
 
 ---
 
-## 🗂 Project Structure
+
+---
+
+## 📅 Data
+
+All datasets are synthetic and cover **July → December 2025**.
+
+| File | Rows | Description |
+|------|------|-------------|
+| `users.csv` | 1,000 | User profiles, signup dates, segments |
+| `onboarding_events.csv` | ~3,500 | Funnel steps + timestamps |
+| `user_activity.csv` | ~10,000 | Weekly engagement events |
+| `support_tickets.csv` | ~1,000 | Ticket metadata + SLA |
+| `experiment_results.csv` | 2,000 | A/B test assignments + conversions |
+
+---
+
+## 🧠 Key Concepts Demonstrated
+
+### **Product Analytics**
+- Funnel analysis  
+- Activation modeling  
+- Retention cohorts  
+- Segment‑level insights  
+
+### **Operations**
+- SLA tracking  
+- Queue health  
+- Ticket lifecycle modeling  
+
+### **Experimentation**
+- Variant assignment  
+- Conversion rate analysis  
+- Uplift measurement  
+
+### **Data Products**
+- Metric definitions  
+- Reusable semantic layer  
+- Stakeholder‑friendly documentation  
+
+---
+
+## ▶️ Running Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+
 
