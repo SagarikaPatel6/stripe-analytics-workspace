@@ -302,7 +302,7 @@ def render():
         st.metric(
             "Merchant Satisfaction",
             "+12 NPS",
-            help="Post-launch survey results"
+            help="Post-launch survey result"
         )
     
     st.markdown("""
@@ -374,9 +374,10 @@ def render():
     including realistic failure distributions, merchant segments, and recovery opportunities.
     """)
     
-    # Footer
+    # Footer — FIX: use f-string instead of .format() to avoid conflicts with CSS curly braces
+    current_date = datetime.now().strftime('%B %d, %Y')
     st.markdown("---")
-    st.markdown("""
+    st.markdown(f"""
         <div style='text-align: center; color: #425466; padding: 2rem 0;'>
             <p style='font-size: 0.95rem;'>
                 Built by <strong>Sagarika Patel</strong> • 
@@ -384,10 +385,10 @@ def render():
                 Data Analyst Application for Stripe
             </p>
             <p style='font-size: 0.85rem; color: #8898AA; margin-top: 0.5rem;'>
-                Last updated: {datetime.now().strftime('%B %d, %Y')}
+                Last updated: {current_date}
             </p>
         </div>
-    """.format(datetime=datetime), unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     st.set_page_config(
