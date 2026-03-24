@@ -243,9 +243,8 @@ with st.sidebar.expander("💬 Feedback"):
     st.markdown("""
     Questions or feedback?
     
-    📧 Email: [Your Email]  
-    💼 LinkedIn: [Your Profile]  
-    🐙 GitHub: [@SagarikaPatel6](https://github.com/SagarikaPatel6)
+    📧 Email: patelsagarika06@gmail.com  
+    💼 LinkedIn: https://www.linkedin.com/in/sagarikapatel6/  
     """)
 
 st.sidebar.markdown("---")
