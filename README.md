@@ -252,12 +252,6 @@ For Stripe's Data Analyst role, this project showcases:
 
 ---
 
-## 📝 License
-
-This project is for demonstration purposes as part of a job application.
-
----
-
 ## 🙏 Acknowledgments
 
 This project was inspired by real-world payment analytics challenges at companies like Stripe, Square, and Adyen. All data is synthetic and generated for demonstration purposes.
