@@ -2,8 +2,6 @@
 
 > **Payment Failure Analysis: How data-driven insights recovered $2.3M in annual revenue**
 
-Built by **Sagarika Patel** as part of a Data Analyst application for Stripe.
-
 ---
 
 ## 🎯 Project Overview
